@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+   background-color: rgb(253, 248, 241);
+}
+
+.nav-list{
+    font-size: .9em;
+    font-weight: 600;
+}
+
+.button-color{
+    background-color: #a4bc46;
+    padding: 10px 25px;
+    color: white;
+    font-size: .85em;
+    font-weight: 600;
+    border-radius: 8px;
+
+}
+
+.button-color:hover{
+    background-color: white;
+    box-shadow: 3px 3px 8px #a4bc46,
+                -1px -1px 8px #a4bc46;
+}
+
+.unique-btn:hover{
+    background-color: rgb(253, 248, 241);
+    box-shadow: 3px 3px 8px #a4bc46,
+                -1px -1px 8px #a4bc46;
+}
+
+.panda-card-footer{
+    background-color: white;
+    border: none;
+}
+
+.header-main-text h1{
+    font-size: 4em;
+    color: #404360;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 65px;
+}
+
+.header-main-text > h1 > span{
+    color: #fabe4c;
+}
+
+.header-main-text p{
+    font-size: .8em;
+    font-weight: 500;
+    
+}
+
+.penguin-card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px rgb(236, 236, 236);
+
+}
+
+.card-text-content h5{
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.card-text-content p{
+    font-size: .9em;
+}
+
+.card-image{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;    
+}
+
+.card-image img{
+    height: 300px
+}
+
+.card-button h3{
+    font-weight: 700;
+    color: #fabe4c;
+}
+
+.box-contain img{
+    height:  100px;
+}
+
+.icon-box{
+    box-shadow: 0px 2px 8px rgb(230, 230, 230);
+}
+
+.best-item-img{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.best-item-button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.best-item-img img{
+    height: 100%;
+    width: 50%;
+
+}
+
+@media (max-width: 992px) { 
+    .svgSection{
+        width: 80%;
+        margin: auto !important;
+        padding: 0;
+        margin: 0;
+     }
+ }
+@media (max-width: 768px) { 
+    .icon-box-child{
+        display: block !important;
+    }
+    .header-main-image img{
+        left: 10%;
+    }
+    .icon-box-img{
+        display: block;
+        margin: auto;
+    }
+    .icon-box-content{
+        
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+ }
+
+
+/* @media (max-width: 768px) { 
+    .big-svg-icon img{
+        width: 300px;
+    }
+ } */
+
+
